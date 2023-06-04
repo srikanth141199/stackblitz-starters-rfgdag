@@ -23,7 +23,7 @@ class Increment extends React.Component {
   render() {
     return (
       <div>
-        <h1>{this.state.count}</h1>
+        <h1>Count : {this.state.count}</h1>
         <button onClick={this.Increment}>Increment</button> &nbsp;
         <button onClick={this.Decrement}>Decrement</button>
       </div>
